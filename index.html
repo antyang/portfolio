@@ -2,16 +2,22 @@
 <html lang="EN">
 	<head>
 		<title>Antony Yang - Web Developer - Sunnyvale, CA</title>
-
-
+	
+		<!-- <link rel="shortcut icon" href="assets/imgs/favicon.png" /> -->
 		<meta name="description" content="My personal website">
 		<meta name="keywords" content="web designer, web developer, full stack developer, junior developer, web site, silicon valley">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<meta charset="utf-8">
 
-		
+		<link rel="stylesheet" href="assets/css/996grid/base.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/996grid/grid.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/996grid/normalize.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/jquery.flatimeline.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="screen" />
+
 		<!-- Bootstrap core CSS -->
-    	<link href="./assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	<!-- <link href="./assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 
  		<!-- Font Awesome -->
     	<link href="./assets/css/fontawesome/css/font-awesome.min.css" rel="stylesheet">
@@ -20,18 +26,537 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="assets/css/ie8.css" />
+		<![endif]-->
 
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.flatimeline.js"></script>
+		<script type="text/javascript" src="assets/js/scrollTo.min.js"></script>
+		<script type="text/javascript" src="assets/js/scripts996.js"></script>
+		<script type="text/javascript" src="assets/js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+
+		
 	</head>
 
 	<body>
 
+		<div id="scrollTop">
+			<img class="scrollTop" src="assets/imgs/scrollTop.png" alt="scrollTop" />
+		</div>
 
-		<header>
-			
+		<header id="header">
+			<div class="container clearfix">
+				<div class="grid_12">
+					<div class="nav">
+						<nav>
+							<ul>
+								<li class="aboutLink">
+									about
+								</li>
+								<li class="experienceLink">
+									experience
+								</li>
+								<li class="projectLink">
+									projects
+								</li>
+								<li class="contactLink">
+									contact
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- <div class="logo"></div> -->
+				</div>
+			</div>
 		</header>
 
+		<section id="intro">
+			<div id="pre-intro"></div>
+			<div class="paddingTop container clearfix">
+				<h1>ANTONY YANG</h1>
+				<h2>web developer</h2>
+				<div class="clear spacer50"></div>
+
+				<div class="grid_12 coding">
+					<img src="assets/imgs/coding-welcome.png" alt="welcome" />
+					<div class="codingDesktop">
+						<div class="line1">
+							&lt;!DOCTYPE html><span>&nbsp;</span>
+						</div>
+						<div class="line2">
+							&lt;html><span>&nbsp;</span>
+						</div>
+						<div class="line3">
+							&emsp;&lt;head><span>&nbsp;</span>
+						</div>
+						<div class="line4">
+							&emsp;&emsp;&lt;title&gt;
+							<p>
+								Welcome
+							</p>
+							&lt;/title><span>&nbsp;</span>
+						</div>
+					</div>
+					<div class="codingMobile">
+						<div class="line1">
+							&lt;!DOCTYPE html>
+						</div>
+						<div class="line2">
+							&lt;html>
+						</div>
+						<div class="line3">
+							&emsp;&lt;head>
+						</div>
+						<div class="line4">
+							&emsp;&emsp;&lt;title&gt;
+							<p>
+								Welcome!
+							</p>
+							&lt;/title>
+						</div>
+					</div>
+				</div>
+
+				<div class="scrollDown"><img class="scrollAbout" src="assets/imgs/scrollDown.png" alt="scrollDown" />
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="ss-style-triangles">
+			<div class="padding container clearfix">
+				<h1 class="grid_12">about</h1>
+				<div class="clear spacer20"></div>
+				<div class="clear spacer20"></div>
+				<div class="grid_6">
+					<h2 class="wow fadeIn" data-wow-delay="5s" data-wow-duration="3s" data-animation-delay="200">who I am</h2>
+					<p class="wow fadeInDown"  data-wow-duration="3s" data-animation-delay="200">
+						My name is Antony Yang, and I'm a web developer with the knowledge of multiple stacks. I like to scratch my own itch when it comes to interaction design and bringing the web to life.
+						<br />
+						<br />
+						I was first introduced to code back in junior high, when xanga and myspace were the trend to customize. As pleasing as it was, after high school life took a turn and I chose a different field of study. After exploring many opportunities, I realized what I have a passion for.
+						<br />
+						<br />
+						I am a recent graduate of Coding Dojo web development bootcamp where I mastered 3 full stacks which includes: LAMP, MEAN, and Ruby on Rails. I'm currently honing my skills in Node, Ruby & iOS - mobile development
+					</p>
+					<div class="spacer20"></div>
+				</div>
+				<div class="grid_6">
+					<h2 class="wow fadeIn" data-wow-delay="5s" data-wow-duration="3s" data-animation-delay="200">skills</h2>
+					<div class="grid_2 alpha">
+						<div class="skill wow fadeInRight" data-wow-delay="2.2s" data-wow-duration="1.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill100.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								HTML5 / CSS3
+							</div>
+						</div>
+					</div>
+					<div class="grid_2">
+						<div class="skill wow fadeInRight" data-wow-delay="2.4s" data-wow-duration="2.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								JavaScript
+							</div>
+						</div>
+					</div>
+					<div class="grid_2 omega">
+						<div class="skill wow fadeInRight" data-wow-delay="2.8s" data-wow-duration="3.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								Node.js
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="grid_2 alpha">
+						<div class="skill wow fadeInDown" data-wow-delay="4.2s" data-wow-duration="1.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								PHP
+							</div>
+						</div>
+					</div>
+					<div class="grid_2">
+						<div class="skill wow fadeInDown" data-wow-delay="4.4s" data-wow-duration="2.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill50.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								Swift
+							</div>
+						</div>
+					</div>
+					<div class="grid_2 omega">
+						<div class="skill wow fadeInDown" data-wow-delay="4.8s" data-wow-duration="3.6s" data-animation-delay="200">
+							<img src="assets/imgs/skill50.png" class="skillZoom" alt="zoom" />
+							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
+							<div class="skillText">
+								Ruby on Rails
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clear spacer20"></div>
+				<div class="grid_12 center">Résumé</div>
+				<!-- <div class="grid_12 center"><a href="https://app.box.com/s/55vzpa9jxccappo6evbkiqiohox8v998" target="_blank"><i class="fa fa-download"></i></a></div> -->
+				<div class="grid_12 center"><a href="assets/files/ANTONY YANG'S Resume.pdf" target="_blank"><i class="fa fa-download"></i></a></div>
+				<div class="clear spacer20"></div>
+			</div>
+		</section>
+
+		<section id="experience"  class="ss-style-triangles">
+			<div class="padding container clearfix">
+				<h1 class="grid_12">experience</h1>
+				<div class="clear spacer20"></div>
+				<div class="clear spacer20"></div>
+				<div class="grid_12">
+					<ul class="flaTimeline">
+					<li class="event">
+							<div class="date">Present</div>
+							<div class="content">
+								<div class="title">Why you want me</div>
+								<div class="text">
+									<p>
+										I'm passionate, versatile, with a positive outlook, and great people skills.
+										I believe I can bring more to your company, as I'm not just a developer, I have skills
+										as a creative thinker, problem solver and a strategist.
+										<br />
+										<span class="topic">HTML5</span><span class="topic">CSS3</span><span class="topic">Javascript</span>
+										<span class="topic">PHP</span><span class="topic">MySQL</span><span class="topic">CodeIgniter</span>
+										<span class="topic">Drupal</span><span class="topic">Wordpress</span><span class="topic">Joomla</span>
+										<div class="clear"></div>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="event">
+							<div class="date">June 2015</div>
+							<div class="content">
+								<div class="title">Hacker in Residence</div>
+								<div class="text">
+									<p>
+										Coding Dojo
+										<br />
+										<span class="topic">Informatics</span><span class="topic">Economy</span><span class="topic">Maths</span>
+										<span class="topic">Algorithms</span><span class="topic">HTML</span><span class="topic">ASP</span>
+										<span class="topic">Visual Basic</span><span class="topic">Database & MySQL</span>
+										<div class="clear"></div>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="event">
+							<div class="date">Feb 2015</div>
+							<div class="content">
+								<div class="title">Full Stack Developer</div>
+								<div class="text">
+									<p>
+										Coding Dojo
+										<br />
+										<span class="topic">Informatics</span><span class="topic">Algorithms</span><span class="topic">Maths</span>
+										<span class="topic">Physical</span><span class="topic">Java</span><span class="topic">Assembly</span>
+										<span class="topic">HTML, CSS & PHP</span><span class="topic">Database & MySQL</span>
+										<span class="topic">Algorithms</span>
+										<div class="clear"></div>
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="ss-style-triangles">
+			<div class="padding container clearfix">
+				<h1 class="grid_12">projects</h1>
+				<div class="clear spacer50"></div>
+				<div class="clear spacer50"></div>
+
+				<div class="container">
+					<div class="text-center">
+						<h2>- 001 -</h2>
+						<p class="lead" style="margin-top:0"></p>
+						
+					</div>
+					
+					<div class="clear spacer20"></div>
+					
+		            <div class="row">
+						<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+		                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+		                </div>
+						
+		                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+		                    <h3 class="section-heading">project1</h3>
+							<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+		                    <p class="lead">
+								In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+								Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+								uam non erat mirum sapientiae lorem cupido
+								patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+							</p>
+
+							 <p><a href="#" role="button">View Details</a> |
+							 <a class="to002" href="#002" role="button">Next</a></p>
+						</div>   
+		            </div>
+		        </div>
+        		<!-- /.container -->
+			</div>
+
+
+
+		<!--002-->
+		<div class="padding container clearfix" id="002">
+			<h1 class="grid_12"></h1>
+			<div class="clear spacer50"></div>
+
+			<div class="container">
+
+				<div class="text-center">
+					<h2>- 002 -</h2>
+					<p class="lead" style="margin-top:0"></p>
+				</div>
+
+				<div class="clear spacer20"></div>
+				
+	            <div class="row">
+	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+	                    <h3 class="section-heading">project1</h3>
+						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+	                    <p class="lead">
+							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+							uam non erat mirum sapientiae lorem cupido
+							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						</p>
+
+						 <p><a href="#" role="button">View Details</a> |
+						 <a class="to003" href="#003" role="button">Next</a></p>
+					</div>   
+					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+	                </div>
+					
+	            </div>
+	        </div>
+    		<!-- /.container -->
+		</div>
+
+		<!--003-->
+		<div class="padding container clearfix" id="003">
+			<h1 class="grid_12"></h1>
+			<div class="clear spacer50"></div>
+			<div class="container">
+
+				<div class="text-center">
+					<h2>- 003 -</h2>
+					<p class="lead" style="margin-top:0"></p>
+				</div>
+
+				<div class="clear spacer20"></div>
+				
+	            <div class="row">
+					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+	                </div>
+					
+	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+	                    <h3 class="section-heading">project1</h3>
+						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+	                    <p class="lead">
+							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+							uam non erat mirum sapientiae lorem cupido
+							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						</p>
+
+						 <p><a href="#" role="button">View Details</a> |
+						 <a class="to004" href="#004" role="button">Next</a></p>
+					</div>   
+	            </div>
+
+	        </div>
+    		<!-- /.container -->
+		</div>
+
+		<!--004-->
+		<div class="padding container clearfix" id="004">
+			<h1 class="grid_12"></h1>
+			<div class="clear spacer50"></div>
+			<div class="container">
+
+				<div class="text-center">
+					<h2>- 004 -</h2>
+					<p class="lead" style="margin-top:0"></p>
+				</div>
+
+				<div class="clear spacer20"></div>
+				
+	            <div class="row">
+	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+	                    <h3 class="section-heading">project1</h3>
+						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+	                    <p class="lead">
+							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+							uam non erat mirum sapientiae lorem cupido
+							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						</p>
+
+						 <p><a href="#" role="button">View Details</a> |
+						 <a class="to005" href="#005" role="button">Next</a></p>
+					</div>   
+					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+	                </div>
+					
+	            </div>
+
+	        </div>
+    		<!-- /.container -->
+		</div>
+
+		<!--005-->
+		<div class="padding container clearfix" id="005">
+			<h1 class="grid_12"></h1>
+			<div class="clear spacer50"></div>
+			<div class="container">
+
+				<div class="text-center">
+					<h2>- 005 -</h2>
+					<p class="lead" style="margin-top:0"></p>
+				</div>
+
+				<div class="clear spacer20"></div>
+				
+	            <div class="row">
+					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+	                </div>
+					
+	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+	                    <h3 class="section-heading">project1</h3>
+						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+	                    <p class="lead">
+							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+							uam non erat mirum sapientiae lorem cupido
+							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						</p>
+
+						 <p><a href="#" role="button">View Details</a> |
+						 <a class="to006" href="#006" role="button">Next</a></p>
+					</div>   
+	            </div>
+
+	        </div>
+    		<!-- /.container -->
+		</div>
+
+		<!--006-->
+		<div class="padding container clearfix" id="006">
+			<h1 class="grid_12"></h1>
+			<div class="clear spacer50"></div>
+			<div class="container">
+
+				<div class="text-center">
+					<h2>- 006 -</h2>
+					<p class="lead" style="margin-top:0"></p>
+				</div>
+
+				<div class="clear spacer20"></div>
+				
+	            <div class="row">
+	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
+	                    <h3 class="section-heading">project1</h3>
+						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+	                    <p class="lead">
+							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+							uam non erat mirum sapientiae lorem cupido
+							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						</p>
+
+						 <p><a href="#" role="button">View Details</a>
+						 <!-- <a href="#contact" role="button">Contact me!</a></p> -->
+					</div>   
+					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
+	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
+	                </div>
+					
+	            </div>
+
+	        </div>
+    		<!-- /.container -->
+			<div class="clear spacer50"></div>
+			<div class="clear spacer50"></div>
+
+
+		</div>
+		</section>
+
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="padding container clearfix">
+				<h1 class="grid_12">contact</h1>
+				<div class="clear spacer20"></div>
+				<div class="grid_12 form">
+					<form role="form" action="mailto:yang.antonyt@gmail.com" method="post" >
+						<div class="col-md-6">
+							<div class="form-group">
+								<div class="input-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<div class="input-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<div class="input-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+							<div class="submitWrapper">
+							<input type="submit" name="submit" id="submit" value="Submit" class="submit">
+							</div>
+						</div>
+					</form>
+
+					<div class="clear spacer20"></div>
+					<div id="social">
+						<a href="https://www.linkedin.com/in/antonyyang" target="_blank"><i class="fa fa-linkedin fa-size"> </i></a>
+						<a href="https://www.github.com/antyang" target="_blank"><i class="fa  fa-github fa-size"> </i> </a> 
+						<a href="mailto:yang.antonyt@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-size"> </i></a>
+						<a href="http://atyang.vsco.co" target="_blank"><i class="fa fa-camera fa-size"> </i></a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<footer>
-			
+			<div class="container clearfix">
+				<div class="grid_12 footer">
+					&copy; 2015 Antony Yang
+					<br />
+				</div>
+			</div>
 		</footer>
 	</body>
 	<script src="assets/js/wow.min.js"></script>
