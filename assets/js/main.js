@@ -18,7 +18,7 @@ $(document).ready(function(){
 		}
 	});
 
-
+	// Navigate to sections
 	$('img.scrollTop').click(
 		function(){
 			$.scrollTo('#intro', 1500, {easing:'easeInOutExpo'});
@@ -73,6 +73,9 @@ $(document).ready(function(){
 		color: '#3dd0ac'
 	});
 
-	
-				
+	//testClick
+	$("span.testclick").hover(function () {
+			$(this).toggle("fadeIn");
+		});
+			
 });
