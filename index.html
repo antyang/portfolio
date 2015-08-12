@@ -1,580 +1,353 @@
 <!DOCTYPE html>
-<html lang="EN">
-	<head>
-		<title>Antony Yang - Web Developer - Sunnyvale, CA</title>
-	
-		<!-- <link rel="shortcut icon" href="assets/imgs/favicon.png" /> -->
-		<meta name="description" content="My personal website">
-		<meta name="keywords" content="web designer, web developer, full stack developer, junior developer, web site, silicon valley">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<meta charset="utf-8">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <HTML lang="en"> <!--<![endif]-->  
+<head>
+    <title>Antony Yang - Full Stack Software Developer</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antony Yang Portfolio">
+    <meta name="keywords" content="fullstack software engineer, web developer, full stack developer, junior developer, entry software engineer, silicon valley">
+    <meta name="Ayang" content="Portfolio"> 
+    <link rel="shortcut icon" href="favicon.png">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octicons.min.css">
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head> 
 
-		<link rel="stylesheet" href="assets/css/996grid/base.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="assets/css/996grid/grid.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="assets/css/996grid/normalize.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="assets/css/jquery.flatimeline.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="screen" />
+<body>
+    <!-- *** HEADER *** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Antony Yang" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Antony Yang</h1>
+                <h2 class="desc">Full Stack Software Engineer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://github.com/antyang" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/antonyyang" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="http://atyang.vsco.co/grid/1" target="_blank"><i class="fa fa-camera-retro"></i></a></li>   
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="mailto:hire@antonyyang.com"><i class="fa fa-paper-plane"></i> Contact Me</a>
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I’m a full-stack software engineer with a background in management and engineering. I’m self motivated with experience building web and iOS applications using various libraries and frameworks. I'm passionate about making useful products with new technologies to make the world a better place.</p>
 
-		<!-- Bootstrap core CSS -->
-    	<!-- <link href="./assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+                            <p>I’m currently looking for opportunities to utilize and hone my developed skills. Feel free to reach out through contacts listed to the right.</p>    
+         
+                            <p>When I'm not coding, you can find me hiking, bouldering, or enjoying eSports</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title">Bzar Bistro</h3>
+                                <p class="summary">A place where bizarre food becomes delicious</p>
+                                <div class="featured-image">
+                                    <!-- <a href="#" target="_blank"> -->
+                                    <img class="img-responsive project-image" src="assets/images/projects/ww.png" alt="Weirdwaystoeat" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">In Progress</div>
+                                    </div>
+                                </div>
+                                <div class="desc text-left">                                    
+                                    <p>Application for everyone to share and explore interesting combinations with food. With features that allow users to upvote, downvote or flag for inappropriate content. This is built with Angular as it's front end, connecting to a Node server, using Multur as a middleware for file upload, and backed with Mongo database.</p>
+                                </div><!--//desc-->         
+                                <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fa fa-thumbs-o-up"></i> Check it out! </a>   -->               
+                            </div><!--//item-->
 
- 		<!-- Font Awesome -->
-    	<link href="./assets/css/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+                            <hr class="divider" />
 
-    	<!-- Custom Google Web Font -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/caja.png" alt="cajamon" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">Cajamon - Fun in SFO</h3>
+                                    <p>Created an iOS application during SFO/Tnooz Hack-a-thon that won multiple awards. It offers entertainment to travelers to explore the terminal in a pokémon like fashion. Built with Swift, MapKit, and Indoo.rs beacon API.</p>
+                                    <!-- <p><a class="more-link" href="#" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/kimbra.png" alt="kimbra" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">Kimbra - Digital LaunchPad</h3>
+                                    <p>Make and remix beats then share it with friends, an audio recorder and looper application built for iOS, using Swift and AVFoundation.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/chat1.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">Project - Project 4</h3>
+                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">Delta - Designed for Mobile Apps</h3>
+                                    <p> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <!-- <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras Lacus</a></h3>
+                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+                        </div>  
+                    </div>             
+                </section> -->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Coding Dojo</a></span> <span class="year">(Jan - Jun, 15)</span></h3>
+                                <p>An advanced software engineering immersive where I spent over 900 hours mastering full stack web development and working in teams to build fully-fledged apps using the latest JavaScript technologies. The curriculum included best practices in testing, project management, apache, php, node.js and mongodb (Mean and Lamp tech stack)</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Co-Founder - <span class="place"><a href="#">Alphatek</a></span> <span class="year">(May - Dec, 14)</span></h3>
+                                <p>Specializing in import operations. Target was to build a strong import-export company with consulting capability for international investors. Extensive understanding of elements in import with respect to margins, landing costs and factory relations</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Assistant Property Manager - <span class="place"><a href="#">Silver Valley Investments, LLC</a></span> <span class="year">(Feb, 12 - Jun, 14)</span></h3>
+                                <p>Responsibilities included: selecting tenants for over 100 units; lease- extension preparation and execution; rent collection, maintenance and tenant relations; accounts payable & receivable for four LLC companies</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Shipping Manger - <span class="place"><a href="#">TMS Motors</a></span> <span class="year">(Jun, 09 - Nov, 10)</span></h3>
+                                <p>Brought forth new ideas benefitting company in sales and relations. Maintained computerized inventory of all products. Coordinated with oversea vendors, freight forwarders (UPS and FEDEX)</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
 
-		<!--[if lt IE 9]>
-		<link rel="stylesheet" type="text/css" href="assets/css/ie8.css" />
-		<![endif]-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Silicon Valley, CA</li>
+                                <li data-toggle="tooltip" data-placement="left" title="Cell: (626) 377 8366"><i class="fa fa-phone"></i><span class="sr-only">Number:</span>Show contact</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:hire@antonyyang.com">hire@antonyyang.com</a></li>
+                                <p</p>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Blog:</span><a href="#myGhostBlog">Blog</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                A few of my developed skills, finding new ways to improve everyday</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, LESS<span class="level-label">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="86%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.flatimeline.js"></script>
-		<script type="text/javascript" src="assets/js/scrollTo.min.js"></script>
-		<script type="text/javascript" src="assets/js/scripts996.js"></script>
-		<script type="text/javascript" src="assets/js/modernizr-2.6.2.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Familiar with Angular, Backbone, React, Ember">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="76%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Node JS &amp; MongoDB<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Implemented in web apps">Intermediate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="66%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
 
-		
-	</head>
+                                <div class="item">
+                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Learning the basics">Fundamental</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="26%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Swift - iOS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Familiar with Core Data and Parse">Novice</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="56%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://www.linkedin.com/in/antonyyang"><i class="fa fa-external-link"></i>  <span class="level-lable" data-toggle="tooltip" data-placement="right" data-animation="true" title="More skills listed here">More Here</span></a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Mandarin:</strong></span>
+                                    <span class="level">Full Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
 
-	<body>
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Cert Computer Science</h3>
+                                <h4 class="university">Coding Dojo <span class="year">(2015)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> AASc Electrical Technology</h3>
+                                <h4 class="university">Pasadena City College <span class="year">(2010)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Awards</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-trophy"></i> <a href="http://www.tnooz.com/article/airport-beacons-showcase-potential-for-open-access-to-locations/" target="_blank">First Place - Tnooz Hackathon 2015</a> (San Francisco Airport)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
 
-		<div id="scrollTop">
-			<img class="scrollTop" src="assets/imgs/scrollTop.png" alt="scrollTop" />
-		</div>
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favorite Coding Playlist</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/user/spotify_uk_/playlist/6y3CuT7MDDoPNXaD69frug" target="_blank">The Most Beautiful</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/user/spotify/playlist/3hpgM1U3bD6kvo7wJubQ8z" target="_blank">Mellow Beats</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/user/sonymusicbelgium/playlist/2EVj7U5s3uCaRzMOuznYdB" target="_target">DOPE: The Playlist</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/user/dtj018/playlist/6qEiPFoexRdnzTokJlZf9l" target="_target">Hans Zimmer</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <!-- GitHub Widget -->
+                <aside class="github aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>                           
+                        <div id="ghfeed" class="ghfeed">
+                        </div><!--//ghfeed-->
+                        
+                    </div><!--//secton-inner-->
+                </aside><!--//section-->
+                <!-- End -->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- *** FOOTER *** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">&copy; 2015</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.1.min.js"></script>
+</body>
+</html> 
 
-		<header id="header">
-			<div class="container clearfix">
-				<div class="grid_12">
-					<div class="nav">
-						<nav>
-							<ul>
-								<li class="aboutLink">
-									about
-								</li>
-								<li class="experienceLink">
-									experience
-								</li>
-								<li class="projectLink">
-									projects
-								</li>
-								<li class="contactLink">
-									contact
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<!-- <div class="logo"></div> -->
-				</div>
-			</div>
-		</header>
-
-		<section id="intro">
-			<div id="pre-intro"></div>
-			<div class="paddingTop container clearfix">
-				<h1>ANTONY YANG</h1>
-				<h2>web developer</h2>
-				<div class="clear spacer50"></div>
-
-				<div class="grid_12 coding">
-					<img src="assets/imgs/coding-welcome.png" alt="welcome" />
-					<div class="codingDesktop">
-						<div class="line1">
-							&lt;!DOCTYPE html><span>&nbsp;</span>
-						</div>
-						<div class="line2">
-							&lt;html><span>&nbsp;</span>
-						</div>
-						<div class="line3">
-							&emsp;&lt;head><span>&nbsp;</span>
-						</div>
-						<div class="line4">
-							&emsp;&emsp;&lt;title&gt;
-							<p>
-								Welcome
-							</p>
-							&lt;/title><span>&nbsp;</span>
-						</div>
-					</div>
-					<div class="codingMobile">
-						<div class="line1">
-							&lt;!DOCTYPE html>
-						</div>
-						<div class="line2">
-							&lt;html>
-						</div>
-						<div class="line3">
-							&emsp;&lt;head>
-						</div>
-						<div class="line4">
-							&emsp;&emsp;&lt;title&gt;
-							<p>
-								Welcome!
-							</p>
-							&lt;/title>
-						</div>
-					</div>
-				</div>
-
-				<div class="scrollDown"><img class="scrollAbout" src="assets/imgs/scrollDown.png" alt="scrollDown" />
-				</div>
-			</div>
-		</section>
-
-		<section id="about" class="ss-style-triangles">
-			<div class="padding container clearfix">
-				<h1 class="grid_12">about</h1>
-				<div class="clear spacer20"></div>
-				<div class="clear spacer20"></div>
-				<div class="grid_6">
-					<h2 class="wow fadeIn" data-wow-delay="5s" data-wow-duration="3s" data-animation-delay="200">who I am</h2>
-					<p class="wow fadeInDown"  data-wow-duration="3s" data-animation-delay="200">
-						I’m a full-stack software engineer with a background in JavaScript and management. I’m self motivated with experience building web and mobile applications using various frameworks. I’m passionate about building teams that make great products and using technologies to make the world a better place.
-						<br>
-						<br>
-                        I’m currently looking for opportunities to utilize and hone my developed skills. Feel free to reach out through email listed to the right.  
-         				<br>
-         				<br>
-                        When I'm not coding, you can find me hiking, bouldering or playing e-Sports
-					</p>
-					<div class="spacer20"></div>
-				</div>
-				<div class="grid_6">
-					<h2 class="wow fadeIn" data-wow-delay="5s" data-wow-duration="3s" data-animation-delay="200">skills</h2>
-					<div class="grid_2 alpha">
-						<div class="skill wow fadeInRight" data-wow-delay="2.2s" data-wow-duration="1.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill100.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								HTML5 / CSS3
-							</div>
-						</div>
-					</div>
-					<div class="grid_2">
-						<div class="skill wow fadeInRight" data-wow-delay="2.4s" data-wow-duration="2.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								JavaScript
-							</div>
-						</div>
-					</div>
-					<div class="grid_2 omega">
-						<div class="skill wow fadeInRight" data-wow-delay="2.8s" data-wow-duration="3.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								Node.js
-							</div>
-						</div>
-					</div>
-					<div class="clear"></div>
-					<div class="grid_2 alpha">
-						<div class="skill wow fadeInDown" data-wow-delay="4.2s" data-wow-duration="1.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill75.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								PHP
-							</div>
-						</div>
-					</div>
-					<div class="grid_2">
-						<div class="skill wow fadeInDown" data-wow-delay="4.4s" data-wow-duration="2.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill50.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								Swift
-							</div>
-						</div>
-					</div>
-					<div class="grid_2 omega">
-						<div class="skill wow fadeInDown" data-wow-delay="4.8s" data-wow-duration="3.6s" data-animation-delay="200">
-							<img src="assets/imgs/skill50.png" class="skillZoom" alt="zoom" />
-							<img src="assets/imgs/skillbase.png" class="skillBase" alt="base" />
-							<div class="skillText">
-								Ruby on Rails
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clear spacer20"></div>
-				<div class="grid_12 center">Résumé</div>
-				<!-- <div class="grid_12 center"><a href="https://app.box.com/s/55vzpa9jxccappo6evbkiqiohox8v998" target="_blank"><i class="fa fa-download"></i></a></div> -->
-				<div class="grid_12 center"><a href="assets/files/ANTONY YANG'S Resume.pdf" target="_blank"><i class="fa fa-download"></i></a></div>
-				<div class="clear spacer20"></div>
-			</div>
-		</section>
-
-		<section id="experience"  class="ss-style-triangles">
-			<div class="padding container clearfix">
-				<h1 class="grid_12">experience</h1>
-				<div class="clear spacer20"></div>
-				<div class="clear spacer20"></div>
-				<div class="grid_12">
-					<ul class="flaTimeline">
-					<li class="event">
-							<div class="date">Present</div>
-							<div class="content">
-								<div class="title wow">Why you want Me</div>
-								<div class="text">
-									<p>
-										I'm passionate, versatile, with a positive outlook, and great people skills.
-										I believe I can bring more to your company, as I'm not just a developer, I have skills
-										as a creative thinker, problem solver and a strategist.
-										<br />
-										<!-- <span class="topic">HTML5</span><span class="topic">CSS3</span><span class="topic">Javascript</span>
-										<span class="topic">PHP</span><span class="topic">MySQL</span><span class="topic">CodeIgniter</span>
-										<span class="topic">Drupal</span><span class="topic">Wordpress</span><span class="topic">Joomla</span> -->
-										<div class="clear"></div>
-									</p>
-								</div>
-							</div>
-						</li>
-						<li class="event">
-							<div class="date">June 2015</div>
-							<div class="content">
-								<div class="title">Hacker in Residence</div>
-								<div class="text">
-									<p>
-										I learned new methods to lead algorithm sessions once a week to a class of
-										20. Also worked on project deployment to Amazon Web Services EC2. During down-time 
-										competed in hackathons with fellow peers to experience a friendly intensive competition.
-										<br />
-										<span class="topic">Data Structures</span>
-										<span class="topic">Algorithms</span>
-										<span class="topic">AWS</span>
-										<span class="topic">EC2</span>
-										<span class="topic">Swift</span>
-										<span class="topic">iMovie</span>
-										<span class="topic">Xcode</span>
-										<span class="topic">Illustrator</span>
-										<span class="topic">CoreData</span>
-										<span class="topic">Databases</span>
-										<div class="clear"></div>
-									</p>
-								</div>
-							</div>
-						</li>
-						<li class="event">
-							<div class="date">Feb 2015</div>
-							<div class="content">
-								<div class="title">Full Stack Developer</div>
-								<div class="text">
-									<p>
-										Attened Coding Dojo; a intensive programming bootcamp where I earned multiple belts including "Double Black Belt" which is the highest level of achievment attainted by the top 6-10% of graduating class. Spent over 1,000 hours of intensive study across 3 MVC frameworks and multiple web technologies.
-										Built Multiple APIs in LAMP and MEAN stack.
-										<br />
-										<span class="topic">Data Structures</span>
-										<span class="topic">PHP</span>
-										<span class="topic">JavaScript</span>
-										<span class="topic">MEAN.io</span>
-										<span class="topic">Socket.IO</span>
-										<span class="topic">Algorithms</span>
-										<span class="topic">AWS</span>
-										<span class="topic">EC2</span>
-										<span class="topic">Swift</span>
-										<span class="topic">iMovie</span>
-										<span class="topic">Xcode</span>
-										<span class="topic">CoreData</span>
-										<span class="topic">Databases</span>
-										<div class="clear"></div>
-									</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-		<!-- Projects -->
-		<section id="projects" class="ss-style-triangles">
-			<div class="padding container clearfix">
-				<h1 class="grid_12">projects</h1>
-				<div class="clear spacer50"></div>
-				<div class="clear spacer50"></div>
-
-				<div class="container">
-					<div class="text-center">
-						<h2>- 001 -</h2>
-						<p class="lead" style="margin-top:0"></p>
-						
-					</div>
-					
-					<div class="clear spacer20"></div>
-					
-		            <div class="row">
-						<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-		                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-		                </div>
-						
-		                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-		                    <h3 class="section-heading">Project 1</h3>
-							<div class="sub-title lead3">Hello, this is a work in progress</div>
-		                    <p class="lead">
-								Projects will be up momentarily :)
-							</p>
-
-							 <!-- <p><a href="#" role="button">View Details</a> |
-							 <a class="to002" href="#002" role="button">Next</a></p> -->
-							 <p>As of now, feel free to check out my <br/>
-							 <a href="https://www.linkedin.com/in/antonyyang" role="button" target="_blank">LinkedIn</a> |
-							 <a href="https://www.github.com/antyang" role="button" target="_blank">GitHub</a></p>
-						</div>   
-		            </div>
-		        </div>
-        		<!-- /.container -->
-			</div>
-
-
-
-		<!--002-->
-		<!-- <div class="padding container clearfix" id="002">
-			<h1 class="grid_12"></h1>
-			<div class="clear spacer50"></div>
-
-			<div class="container">
-
-				<div class="text-center">
-					<h2>- 002 -</h2>
-					<p class="lead" style="margin-top:0"></p>
-				</div>
-
-				<div class="clear spacer20"></div>
-				
-	            <div class="row">
-	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-	                    <h3 class="section-heading">Project</h3>
-						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-	                    <p class="lead">
-							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-							uam non erat mirum sapientiae lorem cupido
-							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-						</p>
-
-						 <p><a href="#" role="button">View Details</a> |
-						 <a class="to003" href="#003" role="button">Next</a></p>
-					</div>   
-					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-	                </div>
-					
-	            </div>
-	        </div>
-
-		</div> -->
-
-		<!--003-->
-		<!-- <div class="padding container clearfix" id="003">
-			<h1 class="grid_12"></h1>
-			<div class="clear spacer50"></div>
-			<div class="container">
-
-				<div class="text-center">
-					<h2>- 003 -</h2>
-					<p class="lead" style="margin-top:0"></p>
-				</div>
-
-				<div class="clear spacer20"></div>
-				
-	            <div class="row">
-					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-	                </div>
-					
-	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-	                    <h3 class="section-heading">Project</h3>
-						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-	                    <p class="lead">
-							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-							uam non erat mirum sapientiae lorem cupido
-							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-						</p>
-
-						 <p><a href="#" role="button">View Details</a> |
-						 <a class="to004" href="#004" role="button">Next</a></p>
-					</div>   
-	            </div>
-
-	        </div>
-		</div> -->
-
-		<!--004-->
-		<!-- <div class="padding container clearfix" id="004">
-			<h1 class="grid_12"></h1>
-			<div class="clear spacer50"></div>
-			<div class="container">
-
-				<div class="text-center">
-					<h2>- 004 -</h2>
-					<p class="lead" style="margin-top:0"></p>
-				</div>
-
-				<div class="clear spacer20"></div>
-				
-	            <div class="row">
-	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-	                    <h3 class="section-heading">Project</h3>
-						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-	                    <p class="lead">
-							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-							uam non erat mirum sapientiae lorem cupido
-							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-						</p>
-
-						 <p><a href="#" role="button">View Details</a> |
-						 <a class="to005" href="#005" role="button">Next</a></p>
-					</div>   
-					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-	                </div>
-					
-	            </div>
-
-	        </div>
-		</div> -->
-
-		<!--005-->
-		<!-- <div class="padding container clearfix" id="005">
-			<h1 class="grid_12"></h1>
-			<div class="clear spacer50"></div>
-			<div class="container">
-
-				<div class="text-center">
-					<h2>- 005 -</h2>
-					<p class="lead" style="margin-top:0"></p>
-				</div>
-
-				<div class="clear spacer20"></div>
-				
-	            <div class="row">
-					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-	                </div>
-					
-	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-	                    <h3 class="section-heading">Project</h3>
-						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-	                    <p class="lead">
-							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-							uam non erat mirum sapientiae lorem cupido
-							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-						</p>
-
-						 <p><a href="#" role="button">View Details</a> |
-						 <a class="to006" href="#006" role="button">Next</a></p>
-					</div>   
-	            </div>
-
-	        </div>
-		</div> -->
-
-		<!--006-->
-		<!-- <div class="padding container clearfix" id="006">
-			<h1 class="grid_12"></h1>
-			<div class="clear spacer50"></div>
-			<div class="container">
-
-				<div class="text-center">
-					<h2>- 006 -</h2>
-					<p class="lead" style="margin-top:0"></p>
-				</div>
-
-				<div class="clear spacer20"></div>
-				
-	            <div class="row">
-	                <div class="grid_6 wow fadeInRight" data-wow-duration="3s" data-animation-delay="200">   
-	                    <h3 class="section-heading">Project</h3>
-						<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-	                    <p class="lead">
-							In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-							Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-							uam non erat mirum sapientiae lorem cupido
-							patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-						</p>
-
-						 <p><a href="#" role="button">View Details</a>
-					</div>   
-					<div class="grid_6 wow flipInX" data-wow-duration="3s" data-animation-delay="200">
-	                    <img class="img-responsive" src="assets/imgs/laptop-onefourth.png" alt="">
-	                </div>
-					
-	            </div>
-
-	        </div>
-			<div class="clear spacer50"></div>
-			<div class="clear spacer50"></div>
-
-
-		</div> -->
-		</section>
-
-
-		<!-- Contact -->
-		<section id="contact">
-			<div class="padding container clearfix">
-				<h1 class="grid_12">contact</h1>
-				<div class="clear spacer20"></div>
-				<div class="grid_12 form">
-					<form role="form" action="mailto:yang.antonyt@gmail.com" method="post" >
-						<div class="col-md-6">
-							<div class="form-group">
-								<div class="input-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							
-							<div class="form-group">
-								<div class="input-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							
-							<div class="form-group">
-								<div class="input-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							<div class="submitWrapper">
-							<input type="submit" name="submit" id="submit" value="Submit" class="submit">
-							</div>
-						</div>
-					</form>
-
-					<div class="clear spacer20"></div>
-					<div id="social">
-						<a href="https://www.linkedin.com/in/antonyyang" target="_blank"><i class="fa fa-linkedin fa-size"> </i></a>
-						<a href="https://www.github.com/antyang" target="_blank"><i class="fa  fa-github fa-size"> </i> </a> 
-						<a href="mailto:yang.antonyt@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-size"> </i></a>
-						<a href="http://atyang.vsco.co" target="_blank"><i class="fa fa-camera fa-size"> </i></a>
-
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<footer>
-			<div class="container clearfix">
-				<div class="grid_12 footer">
-					&copy; 2015 Antony Yang
-					<br />
-				</div>
-			</div>
-		</footer>
-	</body>
-	<script src="assets/js/wow.min.js"></script>
-	<script>
-	 new WOW().init();
-	</script>
-</html>
