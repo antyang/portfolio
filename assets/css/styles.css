@@ -134,7 +134,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  /*background: #b0b7bf;*/
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -146,15 +146,29 @@ iframe {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #fff;
+  color: #49515a;
   text-align: center;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  /*background: #778492;*/
+  -webkit-transform: scale(1.2) rotate(5deg);
+  -ms-transform: scale(1.2) rotate(5deg);
+  -o-transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg);
 }
+  .fa-github:hover {
+    color: #ff9900;
+  }
+  .fa-camera-retro:hover {
+    color: #55acee;
+  }
+  .fa-linkedin:hover {
+    color: #007bb6;
+  }
+
 .header .profile-content .social a .fa {
-  font-size: 20px;
-  padding-top: 8px;
+  font-size: 28px;
+  padding-top: 5px;
 }
 /* ======= Sections======= */
 .sections-wrapper {
