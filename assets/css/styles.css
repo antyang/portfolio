@@ -241,15 +241,15 @@ iframe {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   left: -8px;
-  top: 18px;
-  width: 158px;
+  top: 20px;
+  width: 157px;
   padding: 10px 10px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479fc8;
+  background-color: #E74C3C;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -260,7 +260,7 @@ iframe {
   content: '';
   position: absolute;
   bottom: -5px;
-  border-top: 5px solid #276582;
+  border-top: 5px solid #C0392B;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
